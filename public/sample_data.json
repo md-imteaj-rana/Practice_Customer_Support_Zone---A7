@@ -1,0 +1,290 @@
+[
+  {
+    "id": "TKT-1001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They've tried resetting their password multiple times but still face the issue.",
+    "customer": "John Smith",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "TKT-1002",
+    "title": "Payment Failure During Checkout",
+    "description": "Customer reports that their payment keeps failing when trying to purchase items using a credit card.",
+    "customer": "Emily Johnson",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-02-01"
+  },
+  {
+    "id": "TKT-1003",
+    "title": "Unable to Reset Password",
+    "description": "Password reset emails are not being sent to the customer’s registered email address.",
+    "customer": "Michael Brown",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-02-18"
+  },
+  {
+    "id": "TKT-1004",
+    "title": "App Crashing on Startup",
+    "description": "Customer reports that the mobile app crashes immediately after opening on Android devices.",
+    "customer": "Sophia Martinez",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-03-05"
+  },
+  {
+    "id": "TKT-1005",
+    "title": "Order Not Delivered",
+    "description": "Customer placed an order two weeks ago but has not received the package yet.",
+    "customer": "David Wilson",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2024-03-21"
+  },
+  {
+    "id": "TKT-1006",
+    "title": "Incorrect Billing Amount",
+    "description": "Customer was charged twice for the same subscription renewal.",
+    "customer": "Olivia Taylor",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-04-02"
+  },
+  {
+    "id": "TKT-1007",
+    "title": "Website Not Loading",
+    "description": "Customer reports that the website is not loading on desktop browsers, but mobile works fine.",
+    "customer": "Liam Anderson",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-04-19"
+  },
+  {
+    "id": "TKT-1008",
+    "title": "Account Locked After Multiple Attempts",
+    "description": "Customer's account was locked due to multiple failed login attempts, and they need help unlocking it.",
+    "customer": "Ava Thomas",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2024-05-03"
+  },
+  {
+    "id": "TKT-1009",
+    "title": "Subscription Not Activated",
+    "description": "Customer purchased a premium subscription, but the account still shows as free plan.",
+    "customer": "James White",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-05-22"
+  },
+  {
+    "id": "TKT-1010",
+    "title": "Email Notifications Not Working",
+    "description": "Customer is not receiving any email notifications for updates or promotions.",
+    "customer": "Isabella Harris",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2024-06-07"
+  },
+  {
+    "id": "TKT-1011",
+    "title": "Refund Not Processed",
+    "description": "Customer requested a refund two weeks ago but hasn’t received it yet.",
+    "customer": "Benjamin Clark",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-06-25"
+  },
+  {
+    "id": "TKT-1012",
+    "title": "Feature Request - Dark Mode",
+    "description": "Customer suggests adding a dark mode option to improve user experience during nighttime use.",
+    "customer": "Mia Lewis",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-07-10"
+  },
+  {
+    "id": "TKT-1013",
+    "title": "App Not Updating Automatically",
+    "description": "Customer reports that the app is not updating to the latest version even after enabling auto-update.",
+    "customer": "Noah Walker",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-07-22"
+  },
+  {
+    "id": "TKT-1014",
+    "title": "Delayed Order Confirmation Email",
+    "description": "Customer didn’t receive an order confirmation email after completing the purchase.",
+    "customer": "Charlotte King",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2024-08-01"
+  },
+  {
+    "id": "TKT-1015",
+    "title": "Broken Link on Homepage",
+    "description": "Customer found that the ‘Contact Us’ link on the homepage leads to a 404 page.",
+    "customer": "Ethan Scott",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-08-14"
+  },
+  {
+    "id": "TKT-1016",
+    "title": "App Freezes During Payment",
+    "description": "Customer reports that the mobile app freezes on the payment screen after entering details.",
+    "customer": "Amelia Green",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-08-25"
+  },
+  {
+    "id": "TKT-1017",
+    "title": "Order Delivered to Wrong Address",
+    "description": "Customer received notification of delivery but the package was sent to another address.",
+    "customer": "Logan Adams",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2024-09-03"
+  },
+  {
+    "id": "TKT-1018",
+    "title": "Push Notifications Not Appearing",
+    "description": "Customer reports that push notifications are not appearing on iOS devices.",
+    "customer": "Harper Nelson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-09-15"
+  },
+  {
+    "id": "TKT-1019",
+    "title": "Unable to Update Profile Picture",
+    "description": "Customer cannot upload a new profile picture; system throws an unknown error.",
+    "customer": "Lucas Baker",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2024-09-29"
+  },
+  {
+    "id": "TKT-1020",
+    "title": "Product Out of Stock After Payment",
+    "description": "Customer completed payment but later found the product marked as out of stock.",
+    "customer": "Ella Carter",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2024-10-08"
+  },
+  {
+    "id": "TKT-1021",
+    "title": "Slow Website Performance",
+    "description": "Customer reports that the website takes too long to load product pages.",
+    "customer": "Henry Mitchell",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-10-21"
+  },
+  {
+    "id": "TKT-1022",
+    "title": "Coupon Code Not Working",
+    "description": "Customer’s discount coupon code is not being applied during checkout.",
+    "customer": "Grace Roberts",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2024-10-30"
+  },
+  {
+    "id": "TKT-1023",
+    "title": "App Logout Automatically",
+    "description": "Customer reports being logged out automatically every few hours even with 'Stay Logged In' checked.",
+    "customer": "Jackson Turner",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-11-05"
+  },
+  {
+    "id": "TKT-1024",
+    "title": "Payment Gateway Timeout",
+    "description": "Customer reports a timeout error when using PayPal for transactions.",
+    "customer": "Scarlett Rivera",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2024-11-18"
+  },
+  {
+    "id": "TKT-1025",
+    "title": "Product Image Not Loading",
+    "description": "Images of some products fail to load on the product details page.",
+    "customer": "Sebastian Lee",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-12-02"
+  },
+  {
+    "id": "TKT-1026",
+    "title": "Invoice Not Generated",
+    "description": "Customer reports that the invoice for their last purchase is missing from the account.",
+    "customer": "Victoria Hall",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-12-15"
+  },
+  {
+    "id": "TKT-1027",
+    "title": "Feedback Form Not Submitting",
+    "description": "Customer cannot submit feedback form after filling all fields correctly.",
+    "customer": "Matthew Young",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2025-01-02"
+  },
+  {
+    "id": "TKT-1028",
+    "title": "Two-Factor Authentication Failed",
+    "description": "Customer reports that 2FA codes are not being accepted during login.",
+    "customer": "Chloe Allen",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-01-19"
+  },
+  {
+    "id": "TKT-1029",
+    "title": "Delayed Push Notifications",
+    "description": "Push notifications are arriving several hours late for Android users.",
+    "customer": "Daniel Wright",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2025-02-03"
+  },
+  {
+    "id": "TKT-1030",
+    "title": "Wishlist Not Saving Items",
+    "description": "Customer reports that products added to wishlist disappear after refreshing the page.",
+    "customer": "Luna Perez",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-02-15"
+  },
+  {
+    "id": "TKT-1031",
+    "title": "Voice Search Not Working",
+    "description": "Customer reports that voice search is not detecting voice input on the mobile app.",
+    "customer": "Alexander Diaz",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2025-02-28"
+  },
+  {
+    "id": "TKT-1032",
+    "title": "Corrupted Download File",
+    "description": "Customer reports that downloaded files are corrupted and fail to open.",
+    "customer": "Nora Brooks",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-03-09"
+  }
+]
