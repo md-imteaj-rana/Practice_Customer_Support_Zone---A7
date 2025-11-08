@@ -8,7 +8,7 @@ import Navbar from '../components/nav'
 import { ToastContainer, toast } from 'react-toastify';
 
 const fetchTicket = async () => {
-  const res = await fetch("/public/sample_data.json");
+  const res = await fetch("/sample_data.json");
   return res.json()
 }
 
