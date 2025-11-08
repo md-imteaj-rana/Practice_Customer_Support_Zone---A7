@@ -1,33 +1,62 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { useState, useEffect } from 'react'
 import './App.css'
+import Footer from '../components/footer'
+import Hero from '../components/hero'
+import MainSection from '../components/main/main_sec'
+import Navbar from '../components/nav'
+
+import { ToastContainer, toast } from 'react-toastify';
+
+const fetchTicket = async () => {
+  const res = await fetch("/public/sample_data.json");
+  return res.json()
+}
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [tickets, setTickets] = useState([]); 
+  const [tasks, setTasks] = useState([]);     
+  const [resolvedTasks, setResolvedTasks] = useState([]); 
+
+  useEffect(() => {
+    fetchTicket().then((data) => setTickets(data));
+  }, []);
+
+  // function to add task
+  const onAddTask = (ticket) => {
+    setTasks((prev) => [...prev, ticket]);
+    toast(`Added "${ticket.title}" to Task Status!!`);
+    setTickets((prev) => prev.filter((t) => t.id !== ticket.id));
+  };
+
+  // Completed task
+
+  const onCompleteTask = (completedTask) => {
+    setTasks((prev) => prev.filter((t) => t.id !== completedTask.id));
+    
+     setResolvedTasks((prev) => [...prev, completedTask]); // add to resolved
+    toast.success(`Completed "${completedTask.title}"!`);
+    
+  };
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <header>
+        <nav className='shadow-sm'>
+            <Navbar></Navbar>
+        </nav>
+
+          <section className='bg-[#F5F5F5]'>
+          <Hero tasks={tasks} resolvedTasks={resolvedTasks}></Hero>
+          </section>
+      </header>
+
+      <main className='bg-[#F5F5F5]'>
+          <MainSection resolvedTasks={resolvedTasks} tickets={tickets} onCompleteTask={onCompleteTask} tasks={tasks} onAddTask={onAddTask} ></MainSection>
+      </main>
+          <Footer></Footer>
+          
+          <ToastContainer />
+
     </>
   )
 }
