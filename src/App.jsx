@@ -29,11 +29,10 @@ function App() {
   };
 
   // Completed task
-
   const onCompleteTask = (completedTask) => {
     setTasks((prev) => prev.filter((t) => t.id !== completedTask.id));
     
-     setResolvedTasks((prev) => [...prev, completedTask]); // add to resolved
+     setResolvedTasks((prev) => [...prev, completedTask]);
     toast.success(`Completed "${completedTask.title}"!`);
     
   };

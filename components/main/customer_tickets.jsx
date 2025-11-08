@@ -11,7 +11,7 @@ const CustomerTickets = ({ onAddTask, tickets}) => {
             <h2 className='mb-3 font-semibold text-2xl text-[#34485A]'>Customer Tickets</h2>
             <div id='customer-tickets-container-wraper'>
                 <div id='customer-tickets-container' className="customer-tickets-card grid grid-cols-12 gap-5">
-                    {/* card */}
+                    {}
                     {
                     <TicketCard tickets={tickets} onAddTask={onAddTask} ></TicketCard>
                     }
